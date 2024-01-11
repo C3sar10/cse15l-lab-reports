@@ -1,9 +1,9 @@
-#My First Webaite
+# My First Webaite
 
-##Thoughts: 
--I have never used markdown before
--This is a very simple and easy way to format 
--I will definitely have to get used to writing with this format
+## Thoughts: 
+- I have never used markdown before
+- This is a very simple and easy way to format 
+- I will definitely have to get used to writing with this format
 
 ```
 I wonder what this does and what it looks like?
