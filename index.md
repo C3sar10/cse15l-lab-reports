@@ -15,3 +15,5 @@ for (int i = 0, i =< 0, i++){
   }
 }
 ```
+*I wanna write in Italics*
+**This is in bold**
