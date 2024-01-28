@@ -16,7 +16,7 @@
 3. ![Image](cdEx3.png)
    - The working directory when the command was run was the `home` directory.
    - This was the resulting output because the file `Hello.class` is not a directory, meaning it cannot be accessed by the cd command.
-   - This output is not an error, however the input is an error because I should be using the `cat` command to access a file.
+   - This output is an error, as the in the next line we are not in the `Hello.class` directory so it did not oupt as intended.
   
 `ls` **command**
 ---
@@ -32,7 +32,7 @@
 3. ![Image](lsEx3.png)
    - The working directory when the command was run was the `home` directory.
    - We recived this output because the `ls` command lists contents of a directory, but in this case we tried to use `ls` for a file.
-   - The output is an error because `ls` only lists the contents of a directory and the file `pt.txt` is not a directory.
+   - The output is not an error as  `ls` is working as it is intended too. 
   
 `cat` **command**
 --- 
