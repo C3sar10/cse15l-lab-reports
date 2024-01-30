@@ -12,6 +12,7 @@
 * The values that change from this specific request are:
   - `message`, `user`, `temp`, `message_history`, `user_history`, and `output`
   - They change by starting with `""` as the value and then change depending on arguemnts passed in url.
+
 `/add-message` example 2:
 ![Image](ChatServerEx2.png)
 * The method that is called in my `ChatServer` code is the `public String handleRequest(URI url)` method and the `public static void main(String[] args) throws IOException` method.
