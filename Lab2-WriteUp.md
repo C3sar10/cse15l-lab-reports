@@ -24,6 +24,12 @@
 
 ## Part 2:
 ---
+* Absolute Path for Private Key:
+![Image](Part2Ex1.png)
+* Absolute Path for Public Key:
+![Image](Part2Ex2.png)
+* Logging into `ieng6` with no password:
+![Image](Part2Ex3.png) 
 
 ## Part 3: 
 ---
