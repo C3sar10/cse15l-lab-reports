@@ -21,6 +21,10 @@
 * The method that is called in my `ChatServer` code is the `public String handleRequest(URI url)` method and the `public static void main(String[] args) throws IOException` method.
 * The relevant arguemnts in these methods are "CPerez", "LMelo", "How are you", and "Hello" as these represent the values of `User` and `message` in the `public String handleRequest(URI url)` method. The values of `String message`, `String user`, `String temp`, `int i`, `iny j`, `String[] message_history`, `String[] user_history`, and `String output` are:
   - "How are you", "LMelo", "LMelo: How are you", "1", "1", "['Hello', 'How are you]", "['Cperez', 'LMelo']", and "Cperez: Hello \nLMelo: How are you"
+* The values that change from this specific request are:
+  - `message`, `user`, `temp`, `message_history`, `user_history`, and `output`
+  - They change by starting with `""` as the value and then change depending on arguemnts passed in url.
+  - `message_history` and `user_history` change as they have two arguemnts passed into each array after changing the url two times. 
 
 ## Part 2:
 ---
