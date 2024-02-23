@@ -40,9 +40,9 @@ Explanation: So the bug was that in the before code, the variable `temp` was not
 The `find` command is a terminal command you type to execute a certain task, in this case it will start in the working directory and iteratively search through the directory and its' subdirectories for the file passed as a parameter to be found. 
 1. `- delete` option:
    - What this command does is it deletes the file that is searched for by the find command.
-   	* Example: `Before: ls /User/winter2024: wavelet Plain.txt
-   		    Input: find /User/winter2024/Plain.txt -delete
-   	  	    Output: ls /User/winter2024: wavelet`
+   	* Example:  ```Before: ls /User/winter2024: wavelet Plain.txt
+   	  		Input: find /User/winter2024/Plain.txt -delete
+   	  		Output: ls /User/winter2024: wavelet```
    	* Example: `Before: ls /User/winter2024: wavelet Plain.txt Humor.txt Surface.txt test.sh
    		    Input: find /User/winter2024 -name "*.txt" -delete
    	  	    Output: ls /User/winter2024: wavelet test.sh`
