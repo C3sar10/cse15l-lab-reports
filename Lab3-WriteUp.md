@@ -59,7 +59,7 @@ The `find` command is a terminal command you type to execute a certain task, in 
 	- In the first example the path name is given to `find /Path/to/directory -empty` to search for empty directories and files in 		  winter2024 and its subdirectories. The the empty files and directories are listed as the output, in this case `wavelet` is 		  empty so it is printed. 
  	- In the second example the path name is given to `find /Path/to/directory -empty` to search for all files in the given 		  directory and its subdictoreiss that are empty. This is why the output is nothing as none of the files and directories in 		  winter2024 are empty.
 3. `- print` option:
-   - What this command does is it recursively searches for all directories and files starting from the working directory and prints 	  out all the paths.
+   - What this command does is it recursively searches for all directories and files starting from the working directory and prints out all the paths.
    	* Example: `Before: ls /User/winter2024: wavelet Plain.txt
    		    Input: find /User/winter2024 -print
    	  	    Output: /User/winter2024
