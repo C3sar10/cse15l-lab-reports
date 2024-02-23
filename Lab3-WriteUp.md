@@ -46,8 +46,9 @@ The `find` command is a terminal command you type to execute a certain task, in 
    	* Example: `Before: ls /User/winter2024: wavelet Plain.txt Humor.txt Surface.txt test.sh
    		    Input: find /User/winter2024 -name "*.txt" -delete
    	  	    Output: ls /User/winter2024: wavelet test.sh`
-	- In the first example the path name is given to `find /Path/to/file -delete` to search for `Plain.txt` in the winter2024 		direcotry and its subdirectories. Then the file is deleted which is what is shown when ouputing with the ls command of 			winter2024.
- 	- In the second example the path name is given to `find /Path/to/directory -name "*.txt" -delete` to search for all files in the 	given direcotry and its subdictoreiss with `.txt` in the name and delete them. This is why the output is now just `wavelet` and 	`test.sh` as the other text files were deleted.
+- In the first example the path name is given to `find /Path/to/file -delete` to search for `Plain.txt` in the winter2024 direcotry and its subdirectories. Then the file is deleted which is what is shown when ouputing with the ls command of winter2024.
+* In the second example the path name is given to `find /Path/to/directory -name "*.txt" -delete` to search for all files in the given direcotry and its subdictoreiss with `.txt` in the name and delete them. This is why the output is now just `wavelet` and `test.sh` as the other text files were deleted.
+
 2. `- empty` option:
    - What this command does is it checks for empty files or directories in the current working direcotry and subdirectories and prints them. For the examples wavelet is empty. 
    	* Example: `Before: ls /User/winter2024: wavelet Plain.txt
@@ -56,8 +57,9 @@ The `find` command is a terminal command you type to execute a certain task, in 
    	* Example: `Before: ls /User/winter2024: notEmpty Plain.txt Humor.txt Surface.txt test.sh
    		    Input: find /User/winter2024 -delete
    	  	    Output: `
-	- In the first example the path name is given to `find /Path/to/directory -empty` to search for empty directories and files in 		  winter2024 and its subdirectories. The the empty files and directories are listed as the output, in this case `wavelet` is 		  empty so it is printed. 
- 	- In the second example the path name is given to `find /Path/to/directory -empty` to search for all files in the given 		  directory and its subdictoreiss that are empty. This is why the output is nothing as none of the files and directories in 		  winter2024 are empty.
+- In the first example the path name is given to `find /Path/to/directory -empty` to search for empty directories and files in winter2024 and its subdirectories. The the empty files and directories are listed as the output, in this case `wavelet` is empty so it is printed. 
+* In the second example the path name is given to `find /Path/to/directory -empty` to search for all files in the given 		  directory and its subdictoreiss that are empty. This is why the output is nothing as none of the files and directories in 		  winter2024 are empty.
+
 3. `- print` option:
    - What this command does is it recursively searches for all directories and files starting from the working directory and prints out all the paths.
    	* Example: `Before: ls /User/winter2024: wavelet Plain.txt
@@ -71,8 +73,9 @@ The `find` command is a terminal command you type to execute a certain task, in 
    	  		    /User/winter2024/Humor.txt
    	  		    /User/winter2024/Surface.txt
    	  		    /User/winter2024/test.sh`
-	- In the first example the path name is given to `find /Path/to/file -print` to search for all direcotires and files in the 		  winter2024 directory. Then the directory and path names are listed starting with the working directory. 
- 	- In the second example the path name is given to `find /Path/to/directory -name "*.txt" -print` to search for all files in the 	  given direcotry and its subdictoreiss with `.txt` in the name. Then it ouputs all the path names of the files that match this 	  criteria.
+- In the first example the path name is given to `find /Path/to/file -print` to search for all direcotires and files in the 		  winter2024 directory. Then the directory and path names are listed starting with the working directory. 
+* In the second example the path name is given to `find /Path/to/directory -name "*.txt" -print` to search for all files in the given direcotry and its subdictoreiss with `.txt` in the name. Then it ouputs all the path names of the files that match this criteria.
+
 4. `- ls` option:
    - What this command does is it recursively searches for all directories and files starting from the working directory and prints 	  out information on the files and directories.
    	* Example: `Before: ls /User/winter2024: 
