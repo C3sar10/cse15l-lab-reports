@@ -86,8 +86,9 @@ The `find` command is a terminal command you type to execute a certain task, in 
    	* Example:
    	  - `Before: ls /User/winter2024: wavelet`
    	  - `Input: find /User/winter2024/wavelet type d -ls`
-   	  - `Output: 21386962        0 drwxr-xr-x    4 cesar_12         staff                 128 Feb 13 16:10 winter2024
-   	  22261540        0 drwxr-xr-x   11 cesar_12         staff                 352 Jan 25 11:40 winter2024/wavelet`
+   	  - `Output:`
+   	    * `21386962        0 drwxr-xr-x    4 cesar_12         staff                 128 Feb 13 16:10 winter2024`
+   	    * `22261540        0 drwxr-xr-x   11 cesar_12         staff                 352 Jan 25 11:40 winter2024/wavelet`
  - In the first example the path name is given to `find /Path/to/directory -ls` to search for all direcotires and files in the 		  winter2024 directory. Then information about the directories and files in the current working directory is printed.
  * In the second example the path name is given to `find /Path/to/directory type d -ls` to search for directories in the given direcotry and its subdirectories. Then it ouputs information about the directories.
   	
