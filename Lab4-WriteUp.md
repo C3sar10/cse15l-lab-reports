@@ -25,7 +25,7 @@
      
    4. Edit the code file to fix the failing test
       
-      ![Image](Lab4_Ex4.png)
+      ![Image](Lab4_Ex4.png)  
       ![Image](Lab4_Ex4.1.png)
       - The keys pressed here were: `vim<space>ListExamples.java<j(43 times)><l(11 times)><x><i><2><esc><:><w><q><enter>cat<space>ListExamples.java<enter>`
       - Here what is happening is that in order to edit the file `ListExamples.java` we want to open vim which is a text editor so we write `vim ListExamples.java` to edit the file. Now in order to get to the certain character we want to change we must traverse the file by moving the curse down 43 lines and to the right 11 spaces which is done by pressing the `<j>` key 43 times and the `<l>` key 11 times. Now we delete the character at the specific spot with `<x>`, and enter insert mode to add our own character of `<2>`. Then we escape insert mode my pressing `<esc>`, and save the changes we made to the file with `<:><w><q>` which saves the changes and exits vim. Now we just make sure we can see the new changes by running the command `cat ListExamples.java`.
