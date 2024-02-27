@@ -24,7 +24,6 @@
       - Here what is happening is that the first `javac` command is purely copy and pasted from previous lab programs and then `<enter>` is hit to run the command. Then the next `java` command is also copy pasted from previous lab programs however there is a `<space>` added at the end where the class of `ListExamplesTests` is inputed to run the `java Tests` we wish to run to see if the required methods are successful or if they fail. In this case they fail.
      
    4. Edit the code file to fix the failing test
-
       ![Image](Lab4_Ex4.png)
       ![Image](Lab4_Ex4.1.png)
       - The keys pressed here were: `vim<space>ListExamples.java<j(43 times)><l(11 times)><x><i><2><esc><:><w><q><enter>cat<space>ListExamples.java<enter>`
