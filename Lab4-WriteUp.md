@@ -19,6 +19,7 @@
       - So inputing the `git clone` command for the ssh url from my `lab7` repository on git hub allowed me to clone the repository to the ieng6 server. The `<control+c>` and `<control+v>` allowed me to copy paste the ssh url from github to the command line, then I pressed `<enter>` to run the command. 
      
    3. Run the tests, demonstrating that they fail
+
       ![Image](Lab4_Ex3.png)
       - The keys pressed here were: `<control+c><control+v><enter><control+c><control+v><space>ListExamplesTests<enter>`
       - Here what is happening is that the first `javac` command is purely copy and pasted from previous lab programs and then `<enter>` is hit to run the command. Then the next `java` command is also copy pasted from previous lab programs however there is a `<space>` added at the end where the class of `ListExamplesTests` is inputed to run the `java Tests` we wish to run to see if the required methods are successful or if they fail. In this case they fail.
