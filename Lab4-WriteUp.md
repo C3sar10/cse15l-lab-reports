@@ -11,12 +11,12 @@
    1. Log into ieng6
       ![Image](Lab4_Ex1.png)
       - The keys I pressed here were: `ssh<space>cip003@ieng6.ucsd.edu<enter>`
-      - After I do not have to press anything else because from previous labs I log into my `ieng6` account without having to input a password.
+      - Here what is happening is that I am typeing this comand in order to long into my `ieng6` account. After I press `<enter>`, I do not have to press anything else because from previous labs I logged into my `ieng6` account without having to input a password.
      
    2. Clone your fork of the repository from your Github account (using the SSH URL)
       ![Image](Lab4_Ex2.png)
       - The keys I pressed were: `git<space>clone<space><control+c><control+v><enter>`
-      - So inputing the `git clone` command for the ssh url from my `lab7` repository on git hub allowed me to clone the repository to the ieng6 server. The `<control+c>` and `<control+v>` allowed me to copy paste the ssh url from github to the command line, then I pressed `<enter>` to run the command. 
+      - Here what is happening is that we are cloning the fork repository from Git Hub, so inputing the `git clone` command for the ssh url from my `lab7` repository on Git Hub allowed me to clone the repository to the `ieng6` server. The `<control+c>` and `<control+v>` allowed me to copy paste the ssh url from github to the command line, then I pressed `<enter>` to run the command. 
      
    3. Run the tests, demonstrating that they fail
       ![Image](Lab4_Ex3.png)
