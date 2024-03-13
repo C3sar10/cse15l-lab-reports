@@ -3,7 +3,7 @@
 ## Part 1: Debugging Scenario
 ---
 ###  Help! Strange behavior in my Java program #284
-Stduent:
+Student:
 
 I'm having a weird issue with my Java program. It's supposed to read a list of numbers from a file and calculate their average. However, it seems like the program is not reading the numbers correctly, as it's giving me an average of 0. I've attached a screenshot showing the contents of the input file and the output of my program.
 
